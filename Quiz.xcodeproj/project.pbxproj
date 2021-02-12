@@ -13,6 +13,9 @@
 		CCD67D2525D653F1008FD3D0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCD67D2325D653F1008FD3D0 /* Main.storyboard */; };
 		CCD67D2725D653F3008FD3D0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CCD67D2625D653F3008FD3D0 /* Assets.xcassets */; };
 		CCD67D2A25D653F3008FD3D0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCD67D2825D653F3008FD3D0 /* LaunchScreen.storyboard */; };
+		CCD67D3325D65429008FD3D0 /* QuizViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCD67D3225D65429008FD3D0 /* QuizViewController.swift */; };
+		CCD67D3625D65438008FD3D0 /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCD67D3525D65438008FD3D0 /* ResultViewController.swift */; };
+		CCD67D3925D654BE008FD3D0 /* 警察ロゴ.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CCD67D3825D654BE008FD3D0 /* 警察ロゴ.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		CCD67D2625D653F3008FD3D0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CCD67D2925D653F3008FD3D0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CCD67D2B25D653F3008FD3D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CCD67D3225D65429008FD3D0 /* QuizViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizViewController.swift; sourceTree = "<group>"; };
+		CCD67D3525D65438008FD3D0 /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
+		CCD67D3825D654BE008FD3D0 /* 警察ロゴ.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "警察ロゴ.jpg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,8 +67,11 @@
 				CCD67D2125D653F1008FD3D0 /* ViewController.swift */,
 				CCD67D2325D653F1008FD3D0 /* Main.storyboard */,
 				CCD67D2625D653F3008FD3D0 /* Assets.xcassets */,
+				CCD67D3825D654BE008FD3D0 /* 警察ロゴ.jpg */,
 				CCD67D2825D653F3008FD3D0 /* LaunchScreen.storyboard */,
 				CCD67D2B25D653F3008FD3D0 /* Info.plist */,
+				CCD67D3225D65429008FD3D0 /* QuizViewController.swift */,
+				CCD67D3525D65438008FD3D0 /* ResultViewController.swift */,
 			);
 			path = Quiz;
 			sourceTree = "<group>";
@@ -126,6 +135,7 @@
 			files = (
 				CCD67D2A25D653F3008FD3D0 /* LaunchScreen.storyboard in Resources */,
 				CCD67D2725D653F3008FD3D0 /* Assets.xcassets in Resources */,
+				CCD67D3925D654BE008FD3D0 /* 警察ロゴ.jpg in Resources */,
 				CCD67D2525D653F1008FD3D0 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -137,9 +147,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CCD67D3625D65438008FD3D0 /* ResultViewController.swift in Sources */,
 				CCD67D2225D653F1008FD3D0 /* ViewController.swift in Sources */,
 				CCD67D1E25D653F1008FD3D0 /* AppDelegate.swift in Sources */,
 				CCD67D2025D653F1008FD3D0 /* SceneDelegate.swift in Sources */,
+				CCD67D3325D65429008FD3D0 /* QuizViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
